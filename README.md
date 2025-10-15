@@ -1,9 +1,9 @@
-# Web Developer Portfolio
+# UI/UX Designer Portfolio
 
-This is a portfolio website for a web developer showcasing projects and contact information.
+This is a portfolio website for a UI/UX designer showcasing projects and contact information.
 
 ## Features
-- Projects section displaying multiple project cards
+- Projects section displaying multiple project cards with links to GitHub
 - Contact form for inquiries
 
 ## Technology Stack
