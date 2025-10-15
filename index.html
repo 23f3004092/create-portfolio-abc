@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Web Developer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .project {
+            background: #e2e2e2;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfolio of Web Developer</h1>
+        <nav>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project One</h3>
+                <p>Description of the project goes here.</p>
+            </div>
+            <div class="project">
+                <h3>Project Two</h3>
+                <p>Description of the project goes here.</p>
+            </div>
+            <div class="project">
+                <h3>Project Three</h3>
+                <p>Description of the project goes here.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Name</p>
+        <p><a href="LICENSE">MIT License</a></p>
+    </footer>
+
+    <script>
+        // JavaScript for form submission could be added here
+    </script>
+</body>
+</html>
